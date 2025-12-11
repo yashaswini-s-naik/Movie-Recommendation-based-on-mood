@@ -1,0 +1,50 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="container">
+    <h2 class="page-title">Choose Your Mood</h2>
+    <p class="mood-instruction">Select your mood below. Emojis express your feelings! 😄😢😎🎉</p>
+
+    <form action="{{ url_for('recommend') }}" method="POST" id="moodForm">
+
+        <!-- Mood Cards Grid -->
+        <div class="mood-grid">
+            {% for m in moods %}
+            <label class="mood-card" data-mood="{{ m }}">
+                <input type="radio" name="mood" value="{{ m }}" required>
+                <div class="mood-emoji">{{ emojis[m] }}</div>
+                <div class="mood-label">{{ m }}</div>
+            </label>
+            {% endfor %}
+        </div>
+
+        <!-- Language Selectors -->
+        <div class="controls">
+            <label for="language">Select First Language:</label>
+            <select name="language" id="language" required>
+                {% for lang in languages %}
+                <option value="{{ lang }}">{{ lang }}</option>
+                {% endfor %}
+            </select>
+
+           
+
+            <br><br>
+            <button type="submit" class="btn">Get Recommendations 🍿</button>
+        </div>
+
+    </form>
+</div>
+
+<script>
+// Mood Card Selection
+const cards = document.querySelectorAll('.mood-card');
+cards.forEach(card => {
+    card.addEventListener('click', () => {
+        cards.forEach(c => c.classList.remove('active'));
+        card.classList.add('active');
+        card.querySelector('input').checked = true;
+    });
+});
+</script>
+{% endblock %}

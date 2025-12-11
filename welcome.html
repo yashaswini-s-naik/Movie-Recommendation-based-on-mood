@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container welcome-container">
+    <h1 class="welcome-title">Welcome! 🎉</h1>
+    <p class="welcome-desc">
+        Discover movies based on your mood!  
+        Sit back, select your mood, choose up to 2 languages, and get fun movie recommendations! 🍿🎬
+    </p>
+    <button id="startBtn" class="btn start-btn">Start 🎯</button>
+</div>
+
+<script>
+document.getElementById('startBtn').addEventListener('click', function(){
+    window.location.href = "{{ url_for('mood_select') }}";
+});
+</script>
+{% endblock %}

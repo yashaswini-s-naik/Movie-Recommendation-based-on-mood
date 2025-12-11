@@ -1,0 +1,31 @@
+title,genre,language,mood,rating,poster,description
+Happy Times,Comedy,English,happy,8.5,happy_times.jpg,A joyful story to lift your spirits!
+Smile Again,Drama,Hindi,happy,8.0,smile_again.jpg,A heartwarming tale of hope and happiness.
+Exciting Journey,Adventure,English,excited,8.7,exciting_journey.jpg,A thrilling adventure that keeps you on edge.
+Festival Fun,Comedy,Hindi,excited,8.2,festival_fun.jpg,Full of excitement and laughs during festival season.
+Funny Bones,Comedy,English,funny,8.4,funny_bones.jpg,Get ready to laugh nonstop with silly antics.
+Laugh Out Loud,Hindi,funny,8.1,lol_movie.jpg,Hilarious moments that will make you giggle all day.
+Emotional Tale,Drama,English,emotional,8.6,emotional_tale.jpg,A story that touches your heart deeply.
+Tears of Joy,Hindi,emotional,8.3,tears_of_joy.jpg,Emotional moments that move you to tears.
+Scary Night,Horror,English,scared,8.5,scary_night.jpg,A spine-chilling horror to frighten you.
+Haunted House,Hindi,scared,8.2,haunted_house.jpg,A terrifying journey inside a haunted mansion.
+Sunshine Story,Romance,Spanish,happy,8.4,sunshine_story.jpg,A romantic and cheerful story in Spanish.
+Adventure Fiesta,Action,Spanish,excited,8.3,adventure_fiesta.jpg,A Spanish adventure full of thrills.
+Comedia Loca,Comedy,Spanish,funny,8.0,comedia_loca.jpg,Hilarious Spanish comedy for fun lovers.
+Sentimientos Profundos,Drama,Spanish,emotional,8.1,sentimientos.jpg,Deeply emotional Spanish drama.
+Noche de Terror,Horror,Spanish,scared,8.2,noche_terror.jpg,A Spanish horror story to scare you.
+Amigos Felices,Comedy,French,happy,8.3,amigos_felices.jpg,French comedy full of happiness and fun.
+Voyage Épique,Adventure,French,excited,8.5,voyage_epique.jpg,Exciting adventure in French lands.
+Rire à Gogo,Comedy,French,funny,8.2,rire_gogo.jpg,French comedy to make you laugh.
+Larmes du Cœur,Drama,French,emotional,8.4,larmes_du_coeur.jpg,French emotional drama that touches hearts.
+Maison Hantée,Horror,French,scared,8.3,maison_hantee.jpg,French horror story with scares.
+Happy Days,Comedy,Japanese,happy,8.4,happy_days.jpg,Japanese comedy to brighten your day.
+Exciting Quest,Adventure,Japanese,excited,8.6,exciting_quest.jpg,Thrilling Japanese adventure.
+Funny Tales,Comedy,Japanese,funny,8.1,funny_tales.jpg,Japanese humor that will make you laugh.
+Heartfelt Story,Drama,Japanese,emotional,8.5,heartfelt_story.jpg,Japanese emotional drama that touches souls.
+Scary Legend,Horror,Japanese,scared,8.2,scary_legend.jpg,Japanese horror story that frightens.
+Happy Vibes,Comedy,Korean,happy,8.3,happy_vibes.jpg,Korean comedy full of joy and smiles.
+Adventure Rush,Adventure,Korean,excited,8.5,adventure_rush.jpg,Korean adventure to excite and thrill.
+Laugh Riot,Comedy,Korean,funny,8.0,laugh_riot.jpg,Korean comedy with tons of laughs.
+Emotional Waves,Drama,Korean,emotional,8.2,emotional_waves.jpg,Korean emotional story to touch hearts.
+Fear Night,Horror,Korean,scared,8.3,fear_night.jpg,Korean horror that will make you scream.

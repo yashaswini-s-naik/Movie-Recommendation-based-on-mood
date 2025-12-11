@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mood Movie Recommender</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>🎬 Mood-Based Movie Recommendation</h1>
+
+    <form action="/recommend" method="POST">
+        <label>Select your mood:</label>
+        <select name="mood" required>
+            <option value="">-- Choose Mood --</option>
+            <option value="happy">Happy</option>
+            <option value="sad">Sad</option>
+            <option value="excited">Excited</option>
+            <option value="funny">Funny</option>
+            <option value="emotional">Emotional</option>
+            <option value="scared">Scared</option>
+        </select>
+
+        <button type="submit">Get Recommendations</button>
+    </form>
+</div>
+
+</body>
+</html>
